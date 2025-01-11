@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures":
+  {
+    "all": "liam_chocolate:block/coffee_grounds_block"
+  }
+}

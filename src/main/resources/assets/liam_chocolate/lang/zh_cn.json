@@ -1,0 +1,13 @@
+{
+  "item.liam_chocolate.black_chocolate": "black chocolate",
+  "item.liam_chocolate.coffee_grounds": "coffee grounds",
+  "item.liam_chocolate.dice": "dice~",
+
+  "itemGroup.liam_chocolate_tab": "More chocolates!",
+
+  "block.liam_chocolate.coffee_grounds_block": "coffee grounds block",
+  "block.liam_chocolate.fertile_soil_block": "fertile soil block",
+  "liam_chocolate.tooltip.fertile_soil_block": "沃土可以让你的作物生长的更快！",
+  "liam_chocolate.tooltip.shift_for_more_info": "按住SHIFT查看更多信息",
+  "liam_chocolate.tooltip.fertile_soil_block.shift": "附近的水源可以让作物加速生长\n在沃土上跳跃 [不会] 摧毁作物\n不需要锄头即可种植"
+}

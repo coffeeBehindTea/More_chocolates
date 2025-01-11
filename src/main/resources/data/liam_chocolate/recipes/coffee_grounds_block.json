@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+          [
+            "###",
+            "###",
+            "###"
+          ],
+  "key":
+  {
+    "#":
+    {
+      "item": "liam_chocolate:coffee_grounds"
+    }
+  },
+  "result":
+  {
+    "item": "liam_chocolate:coffee_grounds_block"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemGroup.liam_chocolate_tab": "More chocolates!",
+
+
+  "item.liam_chocolate.black_chocolate": "black chocolate",
+  "item.liam_chocolate.coffee_grounds": "coffee grounds",
+  "item.liam_chocolate.dice": "dice~",
+  "item.liam_chocolate.blueberry": "blueberry",
+  "item.liam_chocolate.blueberry_seeds": "blueberry seeds",
+
+
+  "block.liam_chocolate.coffee_grounds_block": "coffee grounds block",
+  "block.liam_chocolate.fertile_soil_block": "fertile soil block",
+  "block.liam_chocolate.blueberry_crop": "blueberry",
+
+
+  "liam_chocolate.tooltip.fertile_soil_block": "fertile soil block speeds up your crops!",
+  "liam_chocolate.tooltip.shift_for_more_info": "press SHIFT for more information",
+  "liam_chocolate.tooltip.fertile_soil_block.shift": "water around will speed up the crop.\nJumping on it does not destroy the crops planted on.\nHoe [NOT] needed for planting crops!"
+}

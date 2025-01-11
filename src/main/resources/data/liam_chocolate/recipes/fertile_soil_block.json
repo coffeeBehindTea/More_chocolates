@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+          [
+            "#$",
+            "$#"
+          ],
+  "key":
+  {
+    "#":
+    {
+      "item": "liam_chocolate:coffee_grounds"
+    },
+    "$":
+    {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result":
+  {
+    "item": "liam_chocolate:fertile_soil_block"
+  }
+}
