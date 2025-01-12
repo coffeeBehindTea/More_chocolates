@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MoreChocolateMain.MOD_ID);
 
-    public static final RegistryObject<Block> COFFEE_GROUND = registerBlock(
+    public static final RegistryObject<Block> COFFEE_GROUND_BLOCK = registerBlock(
             "coffee_grounds_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.DIRT)

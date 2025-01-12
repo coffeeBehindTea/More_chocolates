@@ -16,5 +16,8 @@
 
   "liam_chocolate.tooltip.fertile_soil_block": "fertile soil block speeds up your crops!",
   "liam_chocolate.tooltip.shift_for_more_info": "press SHIFT for more information",
-  "liam_chocolate.tooltip.fertile_soil_block.shift": "water around will speed up the crop.\nJumping on it does not destroy the crops planted on.\nHoe [NOT] needed for planting crops!"
+  "liam_chocolate.tooltip.fertile_soil_block.shift": "water around will speed up the crop.\nJumping on it does not destroy the crops planted on.\nHoe [NOT] needed for planting crops!",
+
+  "entity.minecraft.villager.liam_chocolate.coffee_master": "Coffee Master"
+
 }

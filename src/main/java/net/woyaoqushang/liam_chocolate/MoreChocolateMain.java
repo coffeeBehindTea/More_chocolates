@@ -27,6 +27,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.woyaoqushang.liam_chocolate.block.ModBlocks;
 import net.woyaoqushang.liam_chocolate.item.ModItems;
+import net.woyaoqushang.liam_chocolate.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -45,6 +46,7 @@ public class MoreChocolateMain
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -56,7 +58,11 @@ public class MoreChocolateMain
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(
+                () -> {
+                    ModVillagers.registerPOIS();
+                }
+        );
     }
 
 
