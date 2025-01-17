@@ -27,6 +27,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.woyaoqushang.liam_chocolate.block.ModBlocks;
 import net.woyaoqushang.liam_chocolate.item.ModItems;
+import net.woyaoqushang.liam_chocolate.painting.ModPaintings;
 import net.woyaoqushang.liam_chocolate.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -46,7 +47,9 @@ public class MoreChocolateMain
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
         ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
