@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.woyaoqushang.liam_chocolate.MoreChocolateMain;
 import net.woyaoqushang.liam_chocolate.block.custom.BlueberryCropBlock;
+import net.woyaoqushang.liam_chocolate.block.custom.FermentationTankBlock;
 import net.woyaoqushang.liam_chocolate.block.custom.fertileSoilBlock;
 import net.woyaoqushang.liam_chocolate.item.ModCreativeModeTab;
 import net.woyaoqushang.liam_chocolate.item.ModItems;
@@ -47,6 +48,16 @@ public class ModBlocks {
             () -> new BlueberryCropBlock(BlockBehaviour.Properties
                     .copy(Blocks.WHEAT)
             )
+    );
+
+    public static final RegistryObject<Block> FERMENTATION_TANK = registerBlock(
+            "fermentation_tank",
+            () -> new FermentationTankBlock(BlockBehaviour.Properties
+                    .of(Material.WOOD)
+                    .sound(SoundType.WOOD)
+                    .noOcclusion()
+            ),
+            ModCreativeModeTab.CHOCOLATE_TAB
     );
 
 

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liam_chocolate:block/fermentation_tank",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liam_chocolate:block/fermentation_tank",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "liam_chocolate:block/fermentation_tank",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "liam_chocolate:block/fermentation_tank",
+      "y": 180
+    }
+  }
+}

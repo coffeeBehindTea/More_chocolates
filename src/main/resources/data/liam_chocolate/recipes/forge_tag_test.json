@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "liam_chocolate:black_chocolate"
+    },
+    {
+      "tag": "forge:fruits"
+    }
+  ],
+
+  "result": {"item": "liam_chocolate:black_chocolate",
+    "count": 1}
+
+}
